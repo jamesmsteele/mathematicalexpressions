@@ -1,0 +1,45 @@
+<class>
+	<method>
+		<name>print</name>
+		<returntype>void</returntype>
+		<parameter>void</parameter>
+		<description>Prints the most recent item in the history.</description>
+	</method>
+	<method>
+		<name>print</name>
+		<returntype>void</returntype>
+		<parameter>int start</parameter>
+		<parameter>int end</parameter>
+		<description>Prints each item in the history in the specified range</description>
+	</method>
+	<method>
+		<name>print</name>
+		<returntype>void</returntype>
+		<parameter>int start</parameter>
+		<description>Prints each item in the history from the specified starting point to the most recent item</description>
+	</method>
+	<method>
+		<name>printAll</name>
+		<returntype>void</returntype>
+		<parameter>void</parameter>
+		<description>Prints each item in the history</description>
+	</method>
+	<method>
+		<name>add</name>
+		<returntype>void</returntype>
+		<parameter>string hist</parameter>
+		<description>Adds an item to the history</description>
+	</method>
+	<method>
+		<name>ans</name>
+		<returntype>string</returntype>
+		<parameter>void</parameter>
+		<description>Returns the most recent item in the history</description>
+	</method>
+	<method>
+		<name>ans</name>
+		<returntype>string</returntype>
+		<parameter>int n</parameter>
+		<description>Returns the nth most recent item</description>
+	</method>
+</class>
